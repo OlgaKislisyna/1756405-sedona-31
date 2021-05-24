@@ -2,6 +2,7 @@
 
 * Студент: [Ольга Кислицына](https://up.htmlacademy.ru/htmlcss/31/user/1756405).
 * Наставник: `Анна Лисененкова`.
+* Ссылка наставнику https://github.com/OlgaKislisyna/1756405-sedona-31 
 
 ---
 
