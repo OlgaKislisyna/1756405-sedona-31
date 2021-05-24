@@ -1,8 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Ольга Кислицына](https://up.htmlacademy.ru/htmlcss/31/user/1756405).
-* Наставник: [Анна Лисененкова](https://github.com/Ankhena).
-*  
+* Наставник: [Анна Лисененкова](https://htmlacademy.ru/profile/ankhena).
 
 ---
 
