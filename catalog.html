@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Catalog</title>
+</head>
+<body>
+<header>
+  <nav>
+    <a href="index.html">
+      <img src="#"  width="138" height="70" alt="Логотип сайта города Седона">
+    </a>
+    <ul>
+      <li><a href="#">Информация</a></li>
+      <li><a href="blank.html">Фото и видео</a></li>
+      <li><a href="blank.html">Карта штата</a></li>
+      <li><a href="blank.html">Гостиницы</a></li>
+    </ul>
+  </nav>
+</header>
+<article>
+  <h3>Поиск жилья</h3>
+  <img src="https://via.placeholder.com/1200x217" width="1200" height="217"
+       alt="Фото города">
+
+    <form action="https://echo.htmlacademy.ru/" method="post">
+      <fieldset>
+      <legend>Инфраструктура:</legend>
+      <label>бассейн<input type="checkbox" name="swimming pool" checked></label>
+      <label>парковка <input type="checkbox" name="parking"></label>
+      <label>Wi-Fi<input type="checkbox" name="Wi-Fi"></label>
+      </fieldset>
+      <fieldset>
+        <legend>Тип жилья:</legend>
+        <label>гостиница<input type="checkbox" name="motel" checked></label>
+        <label>мотель<input type="checkbox" name="hotel" checked></label>
+        <label>апартаменты<input type="checkbox" name="apartments" checked></label>
+      </fieldset>
+        <fieldset>
+        <legend> Стоимость в сутки,<span>₽:</span></legend>
+        <label><input type="text" value="ОТ 0"></label>
+        <label><input type="text" value="ДО 3000"></label>
+        </fieldset>
+      <label><input type="range" min="0" max="3000"></label>
+
+      <button type="submit">показать</button>
+      </form>
+</article>
+<section>
+  <h2>Найдено:<span>3</span></h2>
+  <p>сортировка: <span>по цене</span><span>по типу</span><span>по рейтингу</span>
+ <span>&#9650;</span> <!--стрелка вверх-->
+  <span>&#9660;</span><!--стрелка вниз--></p>
+  <ul>
+    <li>
+      <img src="https://via.placeholder.com/135x90" width="135" height="90" alt="Фото гостиницы">
+      <h2>Amara Resort & Spa</h2>
+      <p>гостиница</p>
+      <p>ОТ 4000 ₽</p>
+      <button type="submit">подробнее</button>
+      <button type="submit">забронировать</button>
+      <form action="https://echo.htmlacademy.ru/" method="post">
+      <input type="radio" id="star-5" name="rating" value="5">
+      <label for="star-5" title="Оценка «5»"></label>
+      <input type="radio" id="star-4" checked name="rating" value="4">
+      <label for="star-4" title="Оценка «4»"></label>
+      <input type="radio" id="star-3" checked name="rating" value="3">
+      <label for="star-3" title="Оценка «3»"></label>
+      <input type="radio" id="star-2" checked name="rating" value="2">
+      <label for="star-2" title="Оценка «2»"></label>
+      <input type="radio" id="star-1" checked name="rating" value="1">
+      <label for="star-1" title="Оценка «1»"></label>
+      </form>
+      <p>Рейтинг: 8,5</p>
+    </li>
+    <li>
+      <img src="https://via.placeholder.com/135x90" width="135" height="90" alt="Фото мотеля">
+      <h2>Desert Quail Inn</h2>
+      <p>мотель</p>
+      <p>ОТ 3000 ₽</p>
+      <button type="submit">подробнее</button>
+      <button type="submit">забронировать</button>
+      <form action="https://echo.htmlacademy.ru/" method="post">
+      <input type="radio" id="star5" name="rating" value="5">
+      <label for="star5" title="Оценка «5»"></label>
+      <input type="radio" id="star4" name="rating" value="4">
+      <label for="star4" title="Оценка «4»"></label>
+      <input type="radio" id="star3" checked name="rating" value="3">
+      <label for="star3" title="Оценка «3»"></label>
+      <input type="radio" id="star2" checked name="rating" value="2">
+      <label for="star2" title="Оценка «2»"></label>
+      <input type="radio" id="star1" checked name="rating" value="1">
+      <label for="star1" title="Оценка «1»"></label>
+      </form>
+
+      <p>Рейтинг: 8,9</p>
+    </li>
+    <li>
+      <img src="https://via.placeholder.com/135x90" width="135" height="90" alt="Фото мотеля">
+      <h2>Villas at Poco Diablo</h2>
+      <p>Апартаменты</p>
+      <p>ОТ 2000 ₽</p>
+      <button type="submit">подробнее</button>
+      <button type="submit">забронировать</button>
+      <form action="https://echo.htmlacademy.ru/" method="post">
+        <input type="radio" id="star.5" name="rating" value="5">
+        <label for="star.5" title="Оценка «5»"></label>
+        <input type="radio" id="star.4" name="rating" value="4">
+        <label for="star.4" title="Оценка «4»"></label>
+        <input type="radio" id="star.3" checked name="rating" value="3">
+        <label for="star.3" title="Оценка «3»"></label>
+        <input type="radio" id="star.2" checked name="rating" value="2">
+        <label for="star.2" title="Оценка «2»"></label>
+        <input type="radio" id="star.1" checked name="rating" value="1">
+        <label for="star.1" title="Оценка «1»"></label>
+      </form>
+
+      <p>Рейтинг: 9,2</p>
+    </li>
+  </ul>
+</section>
+<footer>
+
+<section><h3>Хеш тег и телефон</h3>
+    <a href="index.html">#visitSEDONA</a>
+    <br>
+    <a href="tel:+78005558628">
+      +7 (800) 555-86-28  </a>
+</section>
+<section>
+  <h3>Ссылки на соцсети</h3>
+  <ul>
+    <li><a href="https://www.twitter.com/">Твиттер</a></li>
+    <li><a href="https://www.facebook.com/">Фейсбук</a></li>
+    <li><a href="https://www.youtube.com/">Ютуб</a></li>
+  </ul>
+</section>
+<section>
+  <h4>Website by</h4>
+  <a href="https://htmlacademy.ru/intensive/htmlcss">
+    <img src="#" alt="Website by">
+  </a>
+</section>
+
+</footer>
+
+</body>
+</html>
