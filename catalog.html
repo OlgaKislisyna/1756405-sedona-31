@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <title>Catalog</title>
   <link href="normalize.css" rel="stylesheet">
-  <link href="style.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
   <link rel="icon" href="favicon.ico">
-  <link rel="icon" href="favicon/ico.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="favicon/180.png">
+  <link rel="icon" href="favicon.ico" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="img/favicon/180.png">
   <link rel="manifest" href="manifest.webmanifest">
 </head>
 <body>
+<div class="wrapper">
 <header class="main-header">
   <nav class="main-navigation">
     <a class="main-header-logo" href="index.html">
@@ -24,10 +25,9 @@
     </ul>
   </nav>
 </header>
-<section>
-  <h3>Поиск жилья</h3>
-  <!--Здесь будет Фото окрестностей Седоны
-  <img src="backgroundcatalog-min/jpg" width="1200" height="217"
+<section class="form-catalog">
+  <!--<h3>Поиск жилья</h3>-->
+  <!--<img src="img/backgroundcatalog-min.jpg" width="1200" height="217"
        alt="Фото города">-->
 
     <form action="https://echo.htmlacademy.ru/" method="post">
@@ -54,53 +54,55 @@
       </form>
 </section>
 <section>
-  <h2>Найдено:<span>3</span></h2>
+  <div class="catalog-search-result">
+  <h2 class="title-reason">Найдено:<span>3</span></h2>
   <p>сортировка: <span>по цене</span><span>по типу</span><span>по рейтингу</span>
- <span>&#9650;</span> <!--стрелка вверх-->
-  <span>&#9660;</span><!--стрелка вниз--></p>
-  <ul>
+ <span class="arrows-sorting">&#9650;</span> <!--стрелка вверх-->
+  <span class="arrows-sorting">&#9660;</span><!--стрелка вниз--></p>
+  </div>
+  <ul class="housing-sort">
     <li>
       <img src="img/layer21-min.jpg" width="135" height="90" alt="Фото гостиницы">
-      <h2>Amara Resort & Spa</h2>
+      <h2 class="title-reason">Amara Resort & Spa</h2>
       <p>Гостиница</p>
       <p>ОТ 4000 ₽</p>
-      <button type="submit">подробнее</button>
-      <button type="submit">забронировать</button>
-      <p class="stars stars-3"><span>&#9733;&#9733;&#9733;&#9733;</span></p>
-      <p>Рейтинг: 8,5</p>
+      <button class="button-detailed" type="submit">подробнее</button>
+      <button class="button" type="submit">забронировать</button>
+      <p class="stars-stars-3"><span>&#9733;&#9733;&#9733;&#9733;</span></p>
+      <p class="rating">Рейтинг: 8,5</p>
     </li>
     <li>
       <img src="img/motel-min.jpg" width="135" height="90" alt="Фото мотеля">
-      <h2>Desert Quail Inn</h2>
+      <h2 class="title-reason">Desert Quail Inn</h2>
       <p>Мотель</p>
       <p>ОТ 3000 ₽</p>
-      <button type="submit">подробнее</button>
-      <button type="submit">забронировать</button>
-      <p class="stars stars-3"><span>&#9733;&#9733;&#9733;</span></p>
-      <p>Рейтинг: 8,9</p>
+      <button class="button-detailed" type="submit">подробнее</button>
+      <button class="button" type="submit">забронировать</button>
+      <p class="stars-stars-3"><span>&#9733;&#9733;&#9733;</span></p>
+      <p class="rating">Рейтинг: 8,9</p>
     </li>
     <li>
       <img src="img/apartments.jpg" width="135" height="90" alt="Фото мотеля">
-      <h2>Villas at Poco Diablo</h2>
+      <h2 class="title-reason">Villas at Poco Diablo</h2>
       <p>Апартаменты</p>
       <p>ОТ 2000 ₽</p>
-      <button type="submit">подробнее</button>
-      <button type="submit">забронировать</button>
-      <p class="stars stars-3"><span>&#9733;&#9733;</span></p>
-      <p>Рейтинг: 9,2</p>
+      <button class="button-detailed" type="submit">подробнее</button>
+      <button class="button" type="submit">забронировать</button>
+      <p class="stars-stars-3"><span>&#9733;&#9733;</span></p>
+      <p class="rating">Рейтинг: 9,2</p>
     </li>
   </ul>
 </section>
-<footer>
+<footer class="main-footer">
 
-<section>
+<section class="footer-contacts">
   <h3>Контакты</h3>
     <a href="index.html">#visitSEDONA</a>
     <br>
     <a href="tel:+78005558628">
       +7 (800) 555-86-28  </a>
 </section>
-<section>
+<section class="footer-social">
   <h3>Ссылки на соцсети</h3>
   <ul>
     <li><a href="#">Твиттер</a></li>
@@ -108,7 +110,7 @@
     <li><a href="#">Ютуб</a></li>
   </ul>
 </section>
-<section>
+<section class="footer-copyright">
   <h4>Разработано:</h4>
   <p>Website by
   <a href="https://htmlacademy.ru/intensive/htmlcss">
@@ -118,6 +120,6 @@
 </section>
 
 </footer>
-
+  </div>
 </body>
 </html>

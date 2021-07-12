@@ -11,7 +11,7 @@
     <link rel="apple-touch-icon" href="img/favicon/180.png">
     <link rel="manifest" href="manifest.webmanifest">
   </head>
-  <body>
+  <body class="page1">
   <div class="wrapper">
 <header class="main-header">
     <nav class="main-navigation">
@@ -19,9 +19,9 @@
       <img src="img/logo.svg" width="138" height="70" alt="Логотип сайта города Седона">
       </a>
       <ul class="site-navigation">
-        <li><a class="link-current" href="blank.html">Информация</a></li>
+        <li><a href="blank.html">Информация</a></li>
         <li><a href="blank.html">Фото и видео</a></li>
-        <li><a href="blank.html">Карта штата</a></li>
+        <li><a class="link-current" href="blank.html">Карта штата</a></li>
         <li><a href="catalog.html">Гостиницы</a></li>
       </ul>
     </nav>
@@ -29,7 +29,7 @@
   <main class="container">
 
     <section class="welcom">
-      <h1>Добро пожаловать в Седону</h1>
+      <!--<h1>Добро пожаловать в Седону</h1>-->
 
       <img src="img/backgroundphoto-min.jpg" height="509" width="1200" alt="Фото окрестностей Седоны">--
       <img class="group1" src="img/group1.svg" height="348" width="456" alt="Добро пожаловать в Седону">
@@ -38,14 +38,14 @@
     </section>
 
     <section class="reasons">
-      <h2>Седона — небольшой городок в Аризоне, з аслуживающий большего!</h2>
+      <h2 class="title-reason">Седона — небольшой городок в Аризоне, заслуживающий большего!</h2>
       <p class="reason">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
 
       <ul class="reasons-list">
         <li>
 
           <div class="reasons-item1">
-            <h3>Настоящий городок</h3>
+            <h3 class="title">Настоящий городок</h3>
             <p>-№1-</p>
             <p>Седона — не аттракцион для туристов, там течёт своя жизнь</p>
           </div>
@@ -66,7 +66,7 @@
         </li>
         <li>
           <div class="reasons-item11">
-            <h3>Там есть Мост дьявола</h3>
+            <h3 class="title">Там есть Мост дьявола</h3>
             <p>-№2-</p>
             <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
           </div>
@@ -92,9 +92,9 @@
       </ul>
     </section>
     <section class="search-hotels">
-      <h2>Заинтересовались?</h2>
+      <h2 class="title-reason">Заинтересовались?</h2>
       <p>Укажите предполагаемые даты поездки,и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-      <button class="button search-hotels" type="submit">Поиск гостиницы в Седоне</button>
+      <button class="button-map" type="submit">Поиск гостиницы в Седоне</button>
     </section>
     <!-- Здесь будет карта -->
     <img src="img/map-min.png" width="1199" height="594" alt="карта">
@@ -121,7 +121,7 @@
   <section class="footer-copyright">
     <h4 class="footer-copyright">Разработано:</h4>
     <p>Website by
-    <a class="button" href="https://htmlacademy.ru/intensive/htmlcss">
+    <a href="https://htmlacademy.ru/intensive/htmlcss">
       <img src="img/logo_htmlacademy.svg" alt="Website by">
     </a>
   </p>
